@@ -10,3 +10,4 @@ rm -rf /home/user/.config/xfce4
 mv /home/user/linuxconfigs/xfce4 /home/user/.config/xfce4
 rm -rf /home/user/linuxconfigs
 rm -rf /home/user/yay
+reboot
