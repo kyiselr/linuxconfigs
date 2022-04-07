@@ -1,7 +1,7 @@
-sudo pacman -S --noconfirm base-devel nvidia firefox
+sudo pacman -S --needed --noconfirm base-devel nvidia firefox
 git clone https://aur.archlinux.org/yay
 cd /home/user/yay
-makepkg -si --noconfirm
+makepkg -si --needed --noconfirm
 yay -S librewolf
 sudo rmmod pcspkr
 sudo mv /home/user/linuxconfigs/xorg.conf /etc/X11/xorg.conf
